@@ -20,24 +20,22 @@ require("../../config.php");
 <li>Validation intégrée à bootstrap 4.3.1 (pas de lib additionnelle)</li>
 <li>Invisible recaptcha</li>
 <pre>
-form7.php : Basé sur le form6.php qui fonctionne...
-Essai de mise à jour du captcha avec la dernière version de google...
+form7.php :
+Formulaire type penerhouet intégrant Google Recaptcha V3 
 
 https://www.google.com/recaptcha/admin/
-cle publique : $cfg_recaptcha_site_key2
-cle privée : $cfg_recaptcha_secret2
+clé publique : $cfg_recaptcha_site_key2
+clé privée : $cfg_recaptcha_secret2
 </pre>
 
 
 <form id="demo-form" class="needs-validation" action="action7.php"  method="POST" novalidate>
   
-   <!--
 	<div class="form-group">
 		<label for="periode" class="control-label">Période choisie *</label>
 		<input type="text" class="form-control" name="periode" id="periode" placeholder="Précisez la période de votre choix (ex: du 1er au 8 juillet 2017)" value="Du 18/05/2019 au 25/05/2019, 1 semaine" required/>
         <div class="valid-feedback">OK</div>
 	</div>
-	-->
 
 	<div class="form-group">
 		<label for="prenom" class="control-label">Prénom *</label>
@@ -45,7 +43,6 @@ cle privée : $cfg_recaptcha_secret2
         <div class="valid-feedback">OK</div>
 	</div>
 
-   <!--
 	<div class="form-group">
 		<label for="nom" class="control-label">Nom *</label>
 		<input type="text" class="form-control" name="nom" id="nom" placeholder="Donnez votre nom" required/>
@@ -78,9 +75,7 @@ cle privée : $cfg_recaptcha_secret2
 		<label for="monmessage" class="control-label">Message au propriétaire *</label>
 		<textarea class="form-control" name="monmessage" id="monmessage" placeholder="Rédigez votre message au propriétaire" rows="6" required></textarea>
 	</div>
---> 
 
-	<!-- v2 commenté -->
 	<div id='recaptcha' class="g-recaptcha"
 		  data-sitekey="<?php echo $cfg_recaptcha_site_key2; ?>"
 		  data-callback="onSubmit"
