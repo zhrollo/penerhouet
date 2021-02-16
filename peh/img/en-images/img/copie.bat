@@ -1,0 +1,2 @@
+for /F "tokens=*" %%A in (liste.txt) do copy F:\sam\peh\svn\peh\web\2018\peh\img\en-images\img\%%A .
+for /F "tokens=*" %%A in (liste.txt) do copy F:\sam\peh\svn\peh\web\2018\peh\img\en-images\th\%%A ..\th

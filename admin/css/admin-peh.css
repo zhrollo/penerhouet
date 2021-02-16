@@ -1,0 +1,71 @@
+/* admin-peh.css */
+
+/* Commmun */
+body, table, tr {
+    background-color: #fff;
+    font-size: small;
+    font-family: arial,sans-serif;
+}
+
+
+/* Liste des appreciations - distinction lignes ajout et édition */
+/* Liste des periodes - distinction lignes ajout et édition */
+.tr_header{
+	background: #457CFF;
+	font-weight: bolder;
+	color: #fff;
+}
+
+/* Liste des appreciations - distinction lignes ajout et édition */
+/* Liste des periodes - distinction lignes ajout et édition */
+.tr_add{background: #FFD700}
+.tr_update {background: #FFD700}
+
+/* Liste des appreciations - distinction lignes pour années paires & impaires */
+.tr0 {background: #eee}
+.tr1 {}
+
+
+
+/* Liste des periodes - resa */
+.tr-style-nondispo {
+	background: #00FF00
+}
+.tr-style-nondispo-perime {
+	background: #00B050
+}
+.tr-style-dispo {
+	background: #fff
+}
+.tr-style-dispo-perime {
+	text-decoration:line-through;
+}
+.tr-style-indispo {
+	background: #aaa;
+}
+
+.tr-visible0 {
+	font-style:italic;
+	color: #ccc;
+}
+
+.tr-visible1 {
+}
+
+.err {
+  display: inline-block;
+  position: relative;
+}
+.err:before {
+  content: "~~~~~~~~~~~~";
+  font-size: 0.6em;
+  font-weight: 700;
+  font-family: Times New Roman, Serif;
+  color: red;
+  width: 100%;
+  position: absolute;
+  top: 12px;
+  left: -1px;
+  overflow: hidden;
+}
+

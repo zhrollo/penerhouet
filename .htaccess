@@ -1,0 +1,31 @@
+DirectoryIndex index.php
+DirectorySlash On
+
+Options +FollowSymLinks -MultiViews
+# Turn mod_rewrite on
+RewriteEngine On
+RewriteBase /
+
+# Old url
+RewriteRule ^pen-er-houet-en-images$ /fr/pen-er-houet-en-images [L,R=301]
+RewriteRule ^descriptif$ /fr/descriptif [L,R=301]
+RewriteRule ^situation$ /fr/situation [L,R=301]
+RewriteRule ^reservez-etape-1$ /fr/reservez-etape-1 [L,R=301]
+RewriteRule ^livre-d-or$ /fr/livre-d-or [L,R=301]
+RewriteRule ^alentours$ /fr/alentours [L,R=301]
+RewriteRule ^escapades$ /fr/escapades [L,R=301]
+RewriteRule ^contactez-le-proprietaire$ /fr/contactez-le-proprietaire [L,R=301]
+RewriteRule ^donnez-votre-avis$ /fr/donnez-votre-avis [L,R=301]
+RewriteRule ^mentions-legales$ /fr/mentions-legales [L,R=301]
+RewriteRule ^cgv$ /fr/cgv [L,R=301]
+
+# /{lg}/{page}
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^([a-z]{2})(?:/(.*))?/?$ index.php?lg=$1&p=$2 [L,QSA]
+RewriteRule ^(\w+)/?$ index.php?lang=&page=$1 [L,QSA]
+
+
+
+

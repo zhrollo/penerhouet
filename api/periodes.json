@@ -1,0 +1,177 @@
+[
+   {
+      "id":"24",
+      "etat":"on",
+      "periode":"Du 07\/04\/2018 au 14\/04\/2018",
+      "duree":"1 semaine",
+      "tarif":"650 EUR"
+   },
+   {
+      "id":"25",
+      "etat":"on",
+      "periode":"Du 14\/04\/2018 au 21\/04\/2018",
+      "duree":"1 semaine",
+      "tarif":"650 EUR"
+   },
+   {
+      "id":"26",
+      "etat":"on",
+      "periode":"Du 21\/04\/2018 au 28\/04\/2018",
+      "duree":"1 semaine",
+      "tarif":"650 EUR"
+   },
+   {
+      "id":"27",
+      "etat":"on",
+      "periode":"Du 28\/04\/2018 au 05\/05\/2018",
+      "duree":"1 semaine",
+      "tarif":"650 EUR"
+   },
+   {
+      "id":"28",
+      "etat":"on",
+      "periode":"Du 05\/05\/2018 au 12\/05\/2018",
+      "duree":"1 semaine",
+      "tarif":"500 EUR"
+   },
+   {
+      "id":"29",
+      "etat":"on",
+      "periode":"Du 12\/05\/2018 au 19\/05\/2018",
+      "duree":"1 semaine",
+      "tarif":"500 EUR"
+   },
+   {
+      "id":"30",
+      "etat":"on",
+      "periode":"Du 19\/05\/2018 au 26\/05\/2018",
+      "duree":"1 semaine",
+      "tarif":"500 EUR"
+   },
+   {
+      "id":"31",
+      "etat":"on",
+      "periode":"Du 26\/05\/2018 au 02\/06\/2018",
+      "duree":"1 semaine",
+      "tarif":"500 EUR"
+   },
+   {
+      "id":"32",
+      "etat":"on",
+      "periode":"Du 02\/06\/2018 au 09\/06\/2018",
+      "duree":"1 semaine",
+      "tarif":"550 EUR"
+   },
+   {
+      "id":"33",
+      "etat":"on",
+      "periode":"Du 09\/06\/2018 au 16\/06\/2018",
+      "duree":"1 semaine",
+      "tarif":"550 EUR"
+   },
+   {
+      "id":"34",
+      "etat":"on",
+      "periode":"Du 16\/06\/2018 au 23\/06\/2018",
+      "duree":"1 semaine",
+      "tarif":"550 EUR"
+   },
+   {
+      "id":"35",
+      "etat":"on",
+      "periode":"Du 23\/06\/2018 au 30\/06\/2018",
+      "duree":"1 semaine",
+      "tarif":"550 EUR"
+   },
+   {
+      "id":"36",
+      "etat":"on",
+      "periode":"Du 23\/06\/2018 au 07\/07\/2018",
+      "duree":"1 semaine",
+      "tarif":"550 EUR"
+   },
+   {
+      "id":"37",
+      "etat":"on",
+      "periode":"Du 07\/07\/2018 au 14\/07\/2018",
+      "duree":"1 semaine",
+      "tarif":"900 EUR"
+   },
+   {
+      "id":"38",
+      "etat":"off",
+      "periode":"Du 14\/07\/2018 au 04\/08\/2018",
+      "duree":"21 jours",
+      "tarif":""
+   },
+   {
+      "id":"39",
+      "etat":"off",
+      "periode":"Du 04\/08\/2018 au 18\/08\/2018",
+      "duree":"2 semaines",
+      "tarif":""
+   },
+   {
+      "id":"40",
+      "etat":"on",
+      "periode":"Du 18\/08\/2018 au 25\/08\/2018",
+      "duree":"1 semaine",
+      "tarif":"900 EUR"
+   },
+   {
+      "id":"41",
+      "etat":"on",
+      "periode":"Du 25\/08\/2018 au 01\/09\/2018",
+      "duree":"1 semaine",
+      "tarif":"825 EUR"
+   },
+   {
+      "id":"42",
+      "etat":"on",
+      "periode":"Du 01\/09\/2018 au 08\/09\/2018",
+      "duree":"1 semaine",
+      "tarif":"750 EUR"
+   },
+   {
+      "id":"43",
+      "etat":"on",
+      "periode":"Du 08\/09\/2018 au 15\/09\/2018",
+      "duree":"1 semaine",
+      "tarif":"750 EUR"
+   },
+   {
+      "id":"44",
+      "etat":"on",
+      "periode":"Du 15\/09\/2018 au 22\/09\/2018",
+      "duree":"1 semaine",
+      "tarif":"750 EUR"
+   },
+   {
+      "id":"45",
+      "etat":"on",
+      "periode":"Du 22\/09\/2018 au 29\/09\/2018",
+      "duree":"1 semaine",
+      "tarif":"750 EUR"
+   },
+   {
+      "id":"46",
+      "etat":"on",
+      "periode":"Du 29\/09\/2018 au 06\/10\/2018",
+      "duree":"1 semaine",
+      "tarif":"550 EUR"
+   },
+   {
+      "id":"47",
+      "etat":"on",
+      "periode":"Du 06\/10\/2018 au 13\/10\/2018",
+      "duree":"1 semaine",
+      "tarif":"550 EUR"
+   },
+   {
+      "id":"1",
+      "etat":"on",
+      "periode":"Autre période",
+      "nb_semaines":"1",
+      "tarif":""
+   }
+]

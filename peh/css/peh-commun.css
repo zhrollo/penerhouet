@@ -1,0 +1,173 @@
+﻿/* peh-commun.css : CSS commune à toutes les pages */
+
+/* Début poiret-one-regular - latin */
+@font-face {
+	font-family: 'Poiret One';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/poiret-one-v6-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('Poiret One'), local('PoiretOne-Regular'),
+		url('../fonts/poiret-one-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../fonts/poiret-one-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/poiret-one-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+		url('../fonts/poiret-one-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/poiret-one-v6-latin-regular.svg#PoiretOne') format('svg'); /* Legacy iOS */
+}
+/* Fin poiret-one-regular - latin */
+
+/* Common */
+
+body {
+	background-color: #f3f3f3;
+	font-family: "ff-tisa-sans-web-pro", sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+}
+
+h2 {
+	font-family: 'Poiret One', cursive;
+}
+
+h3 {
+	font-family: 'Poiret One', cursive;
+	margin-top: 1em;
+}
+
+h4 {
+	font-family: 'Poiret One', cursive;
+}
+
+
+/* Surcharge bootstrap - couleur bouton */
+
+.btn-primary {
+	color: #fff;
+	background-color: #4267b2;
+	border-color: #4267b2;
+}
+
+
+/* Début menu */
+
+.icon-small {
+	height: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-right {
+	float: right !important;
+	margin-right: -15px;
+}
+
+
+/* Fin menu */
+
+
+/* Début breadcrumb */
+
+.arr-right .breadcrumb-item+.breadcrumb-item::before {
+	content: "›";
+	vertical-align: top;
+}
+
+
+/* Fin breadcrumb */
+
+
+/* Début Common/footer */
+
+#zigouigoui {
+	padding: 50px;
+	text-align: center;
+	color: #eee;
+}
+
+#footer-content {
+	background-color: #888;
+	color: #fff;
+	margin-top: 60px;
+	padding-bottom: 60px;
+}
+
+#footer-content a {
+	color: #fff;
+}
+
+#footer-content a:hover {
+	color: #fff;
+}
+
+.list-nav {
+	padding-left: 0;
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 10.5px;
+}
+
+.footer-credits {
+	padding-top: 50px;
+}
+
+
+/* Fin Common/footer */
+
+
+/* debut back to top */
+
+#button {
+	display: inline-block;
+	background-color: #FF9800;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+}
+
+#button::after {
+	content: "\f077";
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 50px;
+	color: #fff;
+}
+
+#button:hover {
+	cursor: pointer;
+	background-color: #333;
+	text-decoration: none;
+}
+
+#button:active {
+	background-color: #555;
+}
+
+#button.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+/* fin back to top */
+
+
+/* images (alentours, escapades, locmariaquer, pen-er-houet-en-images) */
+
+.peh-thumbnail {
+	border-radius: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}

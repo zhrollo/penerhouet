@@ -1,0 +1,105 @@
+﻿/* Common */
+
+/* Début poiret-one-regular - latin */
+@font-face {
+	font-family: 'Poiret One';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/poiret-one-v6-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('Poiret One'), local('PoiretOne-Regular'),
+		url('../fonts/poiret-one-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../fonts/poiret-one-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/poiret-one-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+		url('../fonts/poiret-one-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/poiret-one-v6-latin-regular.svg#PoiretOne') format('svg'); /* Legacy iOS */
+}
+/* Fin poiret-one-regular - latin */
+
+body {
+	background-color: #f3f3f3;
+	font-family: "ff-tisa-sans-web-pro",sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+/*
+body {
+	font-family: "ff-tisa-sans-web-pro",sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	background-color: #f3f3f3;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+*/				
+
+h1 {
+	font-family: 'Poiret One', cursive;
+}
+
+h2 {
+	font-family: 'Poiret One', cursive;
+}
+
+h3 {
+	font-family: 'Poiret One', cursive;
+}
+
+h4 {
+	font-family: 'Poiret One', cursive;
+}
+
+/* Début menu */
+.icon-small {
+    height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-right {
+	float: right !important;
+	margin-right: -15px;
+}
+/* Fin menu */
+
+/* Début breadcrumb */
+.arr-right .breadcrumb-item+.breadcrumb-item::before {
+	content: "›";
+	vertical-align: top;
+}
+/* Fin breadcrumb */
+
+
+/* Début Common/footer */
+#zigouigoui{
+	padding : 50px;
+	text-align: center;
+	color: #eee;
+}
+
+#footer-content {
+	background-color: #888;
+	color: #fff;
+}
+
+#footer-content a {
+	color: #fff;
+}
+
+#footer-content a:hover {
+	color: #fff;
+}
+
+.list-nav {
+	padding-left: 0;
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 10.5px;
+}
+
+.footer-credits {
+	padding-top: 50px;
+}				
+/* Fin Common/footer */
+
+
