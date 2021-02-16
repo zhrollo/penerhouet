@@ -100,9 +100,11 @@
 				<i class="far fa-copyright"></i>
 				<?= _FOOTER4_COPYRIGHT?><br class="visible-sm">
 			</p>
+			<!--
 			<p class="text-center footer-classement">
 				<img src="<?= _ROOT ?>peh/img/commun/3-etoiles.png"><br>
 			</p>
+			-->
 		</div>
 	</footer>
 		
