@@ -3,9 +3,6 @@
 	config.php : la configuration
 */
 
-// Paramètre version
-define('APP_VERSION', '1.06');
-
 // paramètre MAINTENANCE modifiable
 // - Mettre 0 pour que le site internet soit opérationnel
 // - Mettre 1 pour déclarer le site en maintenance (tout le monde verra le site en maintenance sauf le poste ayant pour IP "MAINTENANCE_IP")

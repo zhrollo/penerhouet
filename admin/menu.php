@@ -1,6 +1,8 @@
 <?php
 // menu.php : Menu administration
 
+require "../version.php";
+
 ?><!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<a class="navbar-brand" href="index.php">PEH ADMIN V<?php echo APP_VERSION; ?></a> (proxy <?php echo (_PROXY==1 ? 'ON' : 'OFF'); ?>)
