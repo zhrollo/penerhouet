@@ -3,6 +3,10 @@ ob_start();
 ?>
 <!-- bloc_css_instafeed -->
 	<style>
+		#instafeed img {
+			width:300px;
+		}
+				
 		#instafeed a {
 		  padding:5px 5px 1px 5px;
 		  margin:10px;
@@ -114,12 +118,38 @@ ob_start();
 				</div>
 			</div>
 		
-		
+
+<?php
+// On scanne le répertoire contenant les photos instagram (leur nom est préfixé par un numéro d'ordre exemple 106_149552880_195079932402319_4270988371897578827_n.jpg)
+// On prend les 9 dernières
+$nb_pictures = 9;
+
+// calcul répertoire physique en fonction de la version de PHP
+if (version_compare(phpversion(), '7.0.0', '<')) {
+	$directory = realpath(__DIR__ . '/..').'\peh\img\ig_peh';
+} else {
+	$directory = dirname(__DIR__,1).'\peh\img\ig_peh';
+}
+
+// tri descendant, sélection du nombre d'éléments souhaités
+$scanned_directory = array_diff(scandir($directory,SCANDIR_SORT_DESCENDING), array('..', '.'));
+$selection = array_chunk($scanned_directory, $nb_pictures);
+$selection = $selection[0];
+?>
+
 			<!-- block instafeed -->
 			<div class="row">
 				<div class="col-md-12">
 					<h3><?= _TXT_BNVN_INSTAGRAM ?></h3>
-					<div id="instafeed"></div>
+					<div id="instafeed">
+						<?php
+							foreach ($selection as $filename) {
+						?>
+						<a href="https://www.instagram.com/pen_er_houet/" target="ig"><img class="animated flipInX" src="../../peh/img/ig_peh/<?php echo $filename ; ?>"></a>
+						<?php
+						}
+						?>						
+					</div>
 				</div>
 			</div>
 			<!-- /block instafeed -->
@@ -129,24 +159,9 @@ $bloc_content=ob_get_contents();
 ob_end_clean();
 ob_start();
 ?>
-<!-- Début JS instafeed -->
-<script type="text/javascript">
-var token = '<?php echo $cfg_instagram_access_token; ?>',
-    num_photos = 10, // maximum 20
-    container = document.getElementById( 'instafeed' ), // it is our <ul id="rudr_instafeed">
-    scrElement = document.createElement( 'script' );
- 
-window.mishaProcessResult = function( data ) {
-	for( x in data.data ){
-		container.innerHTML += '<a href="' + data.data[x].link + '" target="ig"><img class="animated flipInX" src="' + data.data[x].images.low_resolution.url + '"></a>';
-	}
-}
- 
-scrElement.setAttribute( 'src', 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + token + '&count=' + num_photos + '&callback=mishaProcessResult' );
-document.body.appendChild( scrElement );
 
-</script>
-<!-- Fin JS instafeed -->
+
+
 
 <!-- Début JS appreciation -->
 <script type="text/javascript">
