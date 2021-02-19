@@ -1,6 +1,6 @@
 # Pen-er-Houët website
 
-Version 1.04
+Version 1.07
 
 ## Description
 
@@ -12,8 +12,7 @@ vacation rental
 - Font Awesome 5.8.2
 - HTML 5
 - jQuery 3.3.1
-- instafeed 1.4.1
-- invisible reCAPTCHA v2
+- reCAPTCHA v3
 - mySQL 5.0.12
 - PhotoSwipe 4.1.3
 - PHP 7.0.33
