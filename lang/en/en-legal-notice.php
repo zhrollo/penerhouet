@@ -55,8 +55,7 @@ Design, development : Samuel Besnard<br/><br/>
 		<li><a href="http://fontawesome.io/" lang="en">Font Awesome 5.8.2</a></li>
 		<li><a href="#" lang="en">HTML 5</a></li>
 		<li><a href="http://jquery.com/" lang="en">jQuery 3.3.1</a></li>
-		<li><a href="http://instafeedjs.com/" lang="en">instafeed 1.4.1</a></li>
-		<li><a href="https://developers.google.com/recaptcha/docs/invisible" lang="en">invisible reCAPTCHA v2</a></li>
+		<li><a href="https://developers.google.com/recaptcha/" lang="en">reCAPTCHA</a></li>
 		<li><a href="#" lang="en">mySQL 5.0.12</a></li>
 		<li><a href="http://photoswipe.com/" lang="en">PhotoSwipe 4.1.3</a></li>
 		<li><a href="#" lang="en">PHP 7.0.33</a></li>
