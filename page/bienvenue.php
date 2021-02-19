@@ -126,9 +126,9 @@ $nb_pictures = 9;
 
 // calcul répertoire physique en fonction de la version de PHP
 if (version_compare(phpversion(), '7.0.0', '<')) {
-	$directory = realpath(__DIR__ . '/..').'\peh\img\ig_peh';
+	$directory = realpath(__DIR__ . '/..').'/peh/img/ig_peh';
 } else {
-	$directory = dirname(__DIR__,1).'\peh\img\ig_peh';
+	$directory = dirname(__DIR__,1).'/peh/img/ig_peh';
 }
 
 // tri descendant, sélection du nombre d'éléments souhaités
